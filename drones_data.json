@@ -1,0 +1,150 @@
+[
+  {
+    "drone_id": 1,
+    "name": "DJI Phantom 4",
+    "max_speed_ms": 20,
+    "weight_kg": 1.38,
+    "max_height_m": 6000,
+    "battery_capacity_Wh": 89.2,
+    "sensor_data": {
+      "camera": ["down_facing", "front_facing"],
+      "LiDAR": false,
+      "ultrasound_sensor": true,
+      "barometric_altimeter": true,
+      "ultrasound_obstacle_avoidance": true,
+      "field_of_view_degrees": 84,
+      "resolution_px": [3840, 2160]
+    }
+  },
+  {
+    "drone_id": 2,
+    "name": "DJI Mavic 2 Pro",
+    "max_speed_ms": 20,
+    "weight_kg": 0.907,
+    "max_height_m": 6000,
+    "battery_capacity_Wh": 59.29,
+    "sensor_data": {
+      "camera": ["down_facing", "front_facing"],
+      "LiDAR": false,
+      "ultrasound_sensor": true,
+      "barometric_altimeter": true,
+      "ultrasound_obstacle_avoidance": true,
+      "field_of_view_degrees": 77,
+      "resolution_px": [5472, 3648]
+    }
+  },
+  {
+    "drone_id": 3,
+    "name": "DJI Mini 2",
+    "max_speed_ms": 16,
+    "weight_kg": 0.249,
+    "max_height_m": 4000,
+    "battery_capacity_Wh": 25,
+    "sensor_data": {
+      "camera": ["down_facing", "front_facing"],
+      "LiDAR": false,
+      "ultrasound_sensor": false,
+      "barometric_altimeter": true,
+      "ultrasound_obstacle_avoidance": false,
+      "field_of_view_degrees": 83,
+      "resolution_px": [4000, 2250]
+    }
+  },
+  {
+    "drone_id": 4,
+    "name": "DJI Inspire 2",
+    "max_speed_ms": 30,
+    "weight_kg": 3.44,
+    "max_height_m": 5000,
+    "battery_capacity_Wh": 129,
+    "sensor_data": {
+      "camera": ["down_facing", "front_facing"],
+      "LiDAR": false,
+      "ultrasound_sensor": false,
+      "barometric_altimeter": true,
+      "ultrasound_obstacle_avoidance": false,
+      "field_of_view_degrees": 84,
+      "resolution_px": [5280, 2972]
+    }
+  },
+  {
+    "drone_id": 5,
+    "name": "Autel Robotics EVO Lite",
+    "max_speed_ms": 20,
+    "weight_kg": 0.875,
+    "max_height_m": 6000,
+    "battery_capacity_Wh": 44.25,
+    "down_facing_camera": 1,
+    "front_facing_camera": 1,
+    "LiDAR": 0,
+    "ultrasound_sensor": 0,
+    "barometric_altimeter": 1,
+    "ultrasound_obstacle_avoidance": 1,
+    "field_of_view_degrees": 94,
+    "resolution_px": [5472, 3078]
+  },
+  {
+    "drone_id": 6,
+    "name": "Autel Robotics EVO II Pro",
+    "max_speed_ms": 20,
+    "weight_kg": 1.15,
+    "max_height_m": 7000,
+    "battery_capacity_Wh": 71,
+    "down_facing_camera": 1,
+    "front_facing_camera": 1,
+    "LiDAR": 0,
+    "ultrasound_sensor": 0,
+    "barometric_altimeter": 1,
+    "ultrasound_obstacle_avoidance": 1,
+    "field_of_view_degrees": 82,
+    "resolution_px": [5472, 3648]
+  },
+  {
+    "drone_id": 7,
+    "name": "Parrot Anafi USA",
+    "max_speed_ms": 25,
+    "weight_kg": 0.5,
+    "max_height_m": 4500,
+    "battery_capacity_Wh": 40,
+    "down_facing_camera": 1,
+    "front_facing_camera": 1,
+    "LiDAR": 0,
+    "ultrasound_sensor": 0,
+    "barometric_altimeter": 1,
+    "ultrasound_obstacle_avoidance": 0,
+    "field_of_view_degrees": 69,
+    "resolution_px": [5344, 4016]
+  },
+  {
+    "drone_id": 8,
+    "name": "Yuneec Typhoon H3",
+    "max_speed_ms": 15,
+    "weight_kg": 2,
+    "max_height_m": 5000,
+    "battery_capacity_Wh": 79,
+    "down_facing_camera": 1,
+    "front_facing_camera": 1,
+    "LiDAR": 0,
+    "ultrasound_sensor": 0,
+    "barometric_altimeter": 1,
+    "ultrasound_obstacle_avoidance": 0,
+    "field_of_view_degrees": 91,
+    "resolution_px": [5472, 3648]
+  },
+  {
+    "drone_id": 9,
+    "name": "Freefly Astro",
+    "max_speed_ms": 27,
+    "weight_kg": 3.3,
+    "max_height_m": 4000,
+    "battery_capacity_Wh": 133.5,
+    "down_facing_camera": 1,
+    "front_facing_camera": 1,
+    "LiDAR": 1,
+    "ultrasound_sensor": 0,
+    "barometric_altimeter": 1,
+    "ultrasound_obstacle_avoidance": 0,
+    "field_of_view_degrees": 90,
+    "resolution_px": [5472, 3648]
+  }
+]

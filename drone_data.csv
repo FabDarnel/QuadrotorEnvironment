@@ -1,0 +1,10 @@
+drone_id,name,max_speed_ms,weight_kg,max_height_m,battery_capacity_Wh
+1,DJI Phantom 4,20,1.38,6000,89.2
+2,DJI Mavic 2 Pro,20,0.907,6000,59.29
+3,DJI Mini 2,16,0.249,4000,25
+4,DJI Inspire 2,30,3.44,5000,129
+5,Autel Robotics EVO Lite,20,0.875,6000,44.25
+6,Autel Robotics EVO II Pro,20,1.15,7000,71
+7,Parrot Anafi USA,25,0.5,4500,40
+8,Yuneec Typhoon H3,15,2,5000,79
+9,Freefly Astro,27,3.3,4000,133.5

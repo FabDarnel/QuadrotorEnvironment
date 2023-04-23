@@ -1,0 +1,29 @@
+Here's an overview of some common obstacle avoidance algorithms and their strengths and weaknesses:
+
+Potential Field Method:
+
+Strengths: Simple, computationally efficient, and easy to implement.
+Weaknesses: May get stuck in local minima and oscillations around obstacles.
+Vector Field Histogram (VFH):
+
+Strengths: Robust to sensor noise and relatively computationally efficient.
+Weaknesses: Requires fine-tuning of parameters for different environments.
+Rapidly-exploring Random Trees (RRT):
+
+Strengths: Effective for high-dimensional spaces and nonholonomic constraints.
+Weaknesses: Can be slow in complex environments and may not find the optimal path.
+A* and Dijkstra:
+
+Strengths: Guaranteed to find the optimal path in known environments.
+Weaknesses: Not suitable for dynamic or unknown environments, and can be computationally expensive.
+Deep learning-based methods (e.g., CNN):
+
+Strengths: Can learn complex patterns and generalize well to unseen environments.
+Weaknesses: Require large amounts of training data and may be computationally expensive.
+Proposed algorithms:
+
+Heuristic-based: A* algorithm
+A* is a popular pathfinding algorithm with a good balance between optimality and computational efficiency. It can be easily adapted to work with dynamic environments, although it may require some adjustments to account for changes in the environment.
+
+Machine learning-based: CNN
+A CNN-based approach can learn complex patterns from data and generalize well to unseen environments. You can train a CNN on labeled data (e.g., images with obstacle locations) to predict obstacle-free paths for the drone.
